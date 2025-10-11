@@ -165,7 +165,7 @@ const config: Config = {
       title: 'FamilyCast Help',
       logo: {
         alt: 'FamilyCast Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
