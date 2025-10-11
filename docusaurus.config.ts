@@ -203,6 +203,10 @@ const config: Config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
+        gtag: {
+          trackingID: 'G-8D5XY7NGFN',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
