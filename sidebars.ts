@@ -10,6 +10,7 @@ const sidebars: SidebarsConfig = {
         'getting-started/introduction',
         'getting-started/quick-start',
         'getting-started/display-setup',
+        'getting-started/browser-setup',
       ],
     },
     {
