@@ -67,7 +67,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'twitter:image',
-        content: 'https://docs.familycast.app/img/familycast-social-card.jpg',
+        content: 'https://docs.familycast.app/img/familycast-OG.png',
       },
     },
     {
@@ -95,7 +95,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         property: 'og:image',
-        content: 'https://docs.familycast.app/img/familycast-social-card.jpg',
+        content: 'https://docs.familycast.app/img/familycast-OG.png',
       },
     },
     {
@@ -157,7 +157,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/familycast-social-card.jpg',
+    image: 'img/familycast-OG.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
