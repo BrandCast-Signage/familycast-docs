@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://help.familycast.app',
+  url: 'https://docs.familycast.app',
   baseUrl: '/',
 
   organizationName: 'BrandCast-Signage',
@@ -25,6 +25,115 @@ const config: Config = {
     locales: ['en'],
   },
 
+  // SEO Metadata, Structured Data, and Canonical URL
+  headTags: [
+    // Meta tags
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'FamilyCast, family display, digital photo frame, family calendar, family organization, smart home display',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Complete documentation for FamilyCast - your family\'s digital display for sharing memories and staying connected',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:title',
+        content: 'FamilyCast Documentation',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:description',
+        content: 'Family organization and communication hub documentation',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:image',
+        content: 'https://docs.familycast.app/img/familycast-social-card.jpg',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:type',
+        content: 'website',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:title',
+        content: 'FamilyCast Documentation',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:description',
+        content: 'Complete documentation for FamilyCast digital family display',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image',
+        content: 'https://docs.familycast.app/img/familycast-social-card.jpg',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:url',
+        content: 'https://docs.familycast.app',
+      },
+    },
+    // Canonical URL
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'canonical',
+        href: 'https://docs.familycast.app',
+      },
+    },
+    // Structured data
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'FamilyCast Documentation',
+        url: 'https://docs.familycast.app',
+        publisher: {
+          '@type': 'Organization',
+          name: 'FamilyCast',
+          logo: 'https://docs.familycast.app/img/logo.png',
+        },
+        description: 'Family organization and communication hub documentation',
+      }),
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -36,6 +145,12 @@ const config: Config = {
         blog: false, // Disable blog
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
     ],
