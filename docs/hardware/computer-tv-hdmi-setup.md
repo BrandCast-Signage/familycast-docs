@@ -466,8 +466,8 @@ For remote access to manage displays:
 ✅ **Display is set up!** Now personalize your family dashboard:
 
 1. **[Connect Google Photos](../integrations/google-photos.md)** - Display family photos
-2. **[Sync Family Calendar](../integrations/cozi-calendar.md)** - Show schedules and events
-3. **[Set Up Zones](../features/layouts.md)** - Design your family dashboard layout
+2. **[Sync Family Calendar](../integrations/cozi-integration.md)** - Show schedules and events
+3. **Set Up Zones** - Design your family dashboard layout
 
 ---
 

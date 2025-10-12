@@ -318,7 +318,7 @@ sudo raspi-config
 1. Add heatsink to CPU chip
 2. Use case with built-in fan
 3. Ensure adequate ventilation (don't enclose in tight space)
-4. Check temperature: `vcgencmd measure_temp` (should be <80°C)
+4. Check temperature: `vcgencmd measure_temp` (should be &lt;80°C)
 
 ### microSD Card Corruption
 
@@ -380,9 +380,9 @@ sudo familycast-update
 
 ✅ **Raspberry Pi is set up!** Now configure your content:
 
-1. **[Upload Content](../features/media-library.md)** - Add family photos, calendars, and more
-2. **[Create Layouts](../features/layouts.md)** - Design how content appears
-3. **[Assign to Display](../workflows/content-association.md)** - Push content to your Pi
+1. **Upload Content** - Add family photos, calendars, and more
+2. **Create Layouts** - Design how content appears
+3. **Assign to Display** - Push content to your Pi
 
 ---
 

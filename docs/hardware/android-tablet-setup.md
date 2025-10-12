@@ -357,9 +357,9 @@ To prevent interruptions:
 
 ✅ **Tablet is set up!** Now configure your content:
 
-1. **[Upload Content](../features/media-library.md)** - Add family photos, calendars, and more
-2. **[Create Layouts](../features/layouts.md)** - Design how content appears
-3. **[Assign to Display](../workflows/content-association.md)** - Push content to your tablet
+1. **Upload Content** - Add family photos, calendars, and more
+2. **Create Layouts** - Design how content appears
+3. **Assign to Display** - Push content to your tablet
 
 ---
 
