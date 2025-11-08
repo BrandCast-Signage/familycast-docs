@@ -16,8 +16,7 @@ FamilyCast's photo sharing feature connects to Google Photos and displays albums
 - Multiple albums per display
 - Photo rotation and shuffle
 - Timeframe filtering (recent photos only)
-- Facial recognition album support
-- Safe photo filtering
+- Video support for family memories
 
 ---
 
@@ -54,10 +53,10 @@ FamilyCast's photo sharing feature connects to Google Photos and displays albums
 - "School Year"
 
 **People Albums:**
-- Google Photos creates albums by person
-- "Emma" album
-- "Grandparents" album
-- Auto-populated as you tag photos
+- Google Photos can create albums by person (using Google's facial recognition)
+- Select person-based albums created in Google Photos
+- Auto-populated as Google tags people in photos
+- Note: FamilyCast displays albums created in Google Photos - facial recognition is Google's feature, not ours
 
 **Best Practice:** Create a dedicated "FamilyCast" album in Google Photos specifically for display content.
 
@@ -240,21 +239,23 @@ FamilyCast's photo sharing feature connects to Google Photos and displays albums
 
 ## Advanced Features
 
-### Facial Recognition
+### Person-Based Albums
 
-Google Photos creates albums by person:
+Google Photos can create albums organized by person using Google's facial recognition feature:
 
-**Setup:**
-1. Tag faces in Google Photos
+**Setup (in Google Photos):**
+1. Tag faces in Google Photos app
 2. Google creates person albums automatically
-3. Select person albums in FamilyCast
-4. Display shows only that person
+3. Select those person-based albums in FamilyCast
+4. Display shows photos from selected albums
 
 **Use Cases:**
-- Grandma's display: Grandkids' photos only
-- Individual kid displays: Photos they're in
-- Parent's office: Whole family photos
-- Living room: Everyone included
+- Grandma's display: Select albums of grandkids
+- Individual kid displays: Select albums they appear in
+- Parent's office: Select whole family albums
+- Living room: Select albums including everyone
+
+**Note:** FamilyCast displays albums you select from Google Photos. The facial recognition and person grouping is done by Google Photos, not FamilyCast.
 
 ### Live Photos & Videos
 

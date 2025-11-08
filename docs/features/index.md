@@ -33,9 +33,7 @@ Automatically display family photos from Google Photos on beautiful digital slid
 - Sync Google Photos albums automatically
 - Customizable slideshow transitions and timing
 - Multiple albums per display
-- Facial recognition filtering
-- Kid-safe photo albums
-- Live Photos and video support
+- Video support for family memories
 
 **Perfect For:**
 - Reliving family memories daily
@@ -44,44 +42,6 @@ Automatically display family photos from Google Photos on beautiful digital slid
 - Personalizing each room with relevant photos
 
 ---
-
-### [Family Messages](./family-messages.md)
-Send messages to displays throughout your home for reminders, encouragement, and family communication.
-
-**Key Capabilities:**
-- Target specific displays or all displays
-- Schedule messages for specific times
-- Priority levels (normal, important, urgent)
-- Message templates for common needs
-- Parental approval for teen messages
-- Recurring message support
-
-**Perfect For:**
-- Morning reminders ("Don't forget lunch!")
-- Encouragement notes to kids
-- Important announcements to family
-- Chore reminders
-- Love notes between family members
-
----
-
-### [Kids' Schedules](./kids-schedules.md)
-Visual schedules, chore charts, and reward systems designed specifically for children.
-
-**Key Capabilities:**
-- Age-appropriate visual designs
-- Daily routine displays
-- Chore charts with check-off
-- Reward tracking and progress
-- Morning/bedtime routines
-- Icon-based schedules (minimal text for young kids)
-
-**Perfect For:**
-- Morning routines (get dressed, brush teeth, eat breakfast)
-- After-school schedules
-- Chore management and accountability
-- Building independence in kids
-- Positive reinforcement
 
 ---
 
@@ -106,76 +66,63 @@ Local weather forecasts, current conditions, time, date, and useful information 
 
 ---
 
-## Feature Comparison by Plan
+## What's Included
 
-| Feature | Free | Plus | Premium |
-|---------|------|------|---------|
-| **Displays** | 2 | 5 | Unlimited |
-| **Family Members** | 4 | 8 | Unlimited |
-| **Calendar Integration** | ✅ | ✅ | ✅ |
-| **Photo Integration** | ✅ | ✅ | ✅ |
-| **Family Messages** | ✅ | ✅ | ✅ |
-| **Kids' Schedules** | ✅ | ✅ | ✅ |
-| **Weather** | ✅ | ✅ | ✅ |
-| **Custom Layouts** | Limited | ✅ | ✅ |
-| **Safe Mode (Kids)** | ✅ | ✅ | ✅ |
-| **Priority Support** | ❌ | ✅ | ✅ |
-| **Advanced Features** | ❌ | ❌ | ✅ |
+All FamilyCast accounts include:
+
+- **Calendar Integration** - Sync Google Calendar, Cozi, and iCal
+- **Photo Sharing** - Display Google Photos albums
+- **Weather Display** - Current conditions and forecasts
+- **Custom Layouts** - Design your own display layouts
+- **Unlimited Family Members** - Everyone can help manage
+- **Email Support** - Get help when you need it
 
 ---
 
-## Feature Deep Dives
+## Learn More
 
 **Calendar Features:**
 - [Connecting calendars](../integrations/google-calendar.md)
-- [Handling conflicts](./family-calendar.md#conflict-detection)
-- [Filtering private events](./family-calendar.md#private-events)
+- [iCal calendar setup](../integrations/ical-calendar.md)
+- [Cozi calendar integration](../integrations/cozi-integration.md)
 
 **Photo Features:**
-- [Creating albums](../integrations/google-photos.md#album-management)
-- [Kid-safe filtering](./photo-sharing.md#kid-safe-photo-sharing)
+- [Google Photos setup](../integrations/google-photos.md)
 - [Slideshow customization](./photo-sharing.md#display-options)
-
-**Message Features:**
-- [Message templates](./family-messages.md#message-templates)
-- [Scheduling messages](./family-messages.md#scheduled-messages)
-- [Teen message approval](./family-messages.md#teen-messaging)
-
-**Kids' Features:**
-- [Age-appropriate designs](./kids-schedules.md#age-appropriate-designs)
-- [Chore charts](./kids-schedules.md#chore-charts)
-- [Reward systems](./kids-schedules.md#rewards-and-incentives)
+- [Creating photo albums](./photo-sharing.md)
 
 ---
 
 ## Use Cases
 
 **Busy Mornings:**
-Combine calendar (today's events), weather (dress appropriately), messages (reminders), and kids' schedules (morning routine) on kitchen display.
+Combine calendar (today's events) and weather (dress appropriately) on kitchen display.
 
 **After School:**
-Kids' bedroom displays show afternoon schedule, chores to complete, and family messages with encouragement.
+Kids' bedroom displays show afternoon schedule and upcoming activities.
 
 **Family Hub:**
 Living room display shows family calendar (week view), photo slideshow, and important messages.
 
 **Bedtime Routine:**
-Kids' displays show bedtime checklist, calming photos, and tomorrow's schedule preview.
+Kids' displays show calming photos and tomorrow's schedule preview.
 
 **Remote Grandparents:**
 Shared photo albums keep grandparents connected with constantly-updating family memories.
 
 ---
 
-## Coming Soon
+## Planned Features
 
-**Future Features** (Roadmap):
-- Shopping lists
-- Meal planning
-- Habit tracking
-- Allowance management
-- Screen time tracking
-- Voice integration
+We're actively building based on family feedback:
+
+- **[Family Messages](./family-messages.md)** - Display reminders and notes
+- **[Kids' Schedules](./kids-schedules.md)** - Chore charts and visual routines
+- **Shopping Lists** - Cozi shopping list integration
+- **Meal Planning** - Weekly meal display
+- **Habit Tracking** - Kid-friendly progress trackers
+
+Want to influence our roadmap? Email hello@familycast.app with your family's needs.
 
 ---
 
