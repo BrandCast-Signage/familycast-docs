@@ -1,6 +1,6 @@
 ---
 title: Welcome to FamilyCast
-slug: /
+slug: /docs
 ---
 
 # Welcome to FamilyCast Documentation
