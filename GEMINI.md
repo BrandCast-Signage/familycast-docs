@@ -4,6 +4,9 @@
 
 ## 🎯 Mission & Strategy
 
+### Core Documentation Tenant: Enable Users (Not Just Document Features)
+Our primary goal is to empower users to achieve their objectives. Every piece of documentation must be crafted with a specific **persona** in mind, guiding them through a clear **Customer User Journey (CUJ)**. Documentation is successful when it enables a user to perform a task, solve a problem, or achieve a family goal, not merely when it describes a feature.
+
 **Goal:** Transform technical specifications and feature dumps into warm, accessible, and life-simplifying guides for busy families.
 
 **Target Audience: The "Chief Family Officer"**
@@ -15,6 +18,11 @@
     *   **Plain Language:** Use "connection speed" instead of "latency"; "settings" instead of "configuration".
     *   **Action-Oriented:** Start sentences with verbs.
     *   **Visual:** Heavy use of screenshots and visual cues.
+
+### Diagramming Standard
+*   **Tool:** Use **Mermaid.js** for all diagrams.
+*   **Why:** It's easier to maintain than PNGs.
+*   **Usage:** Wrap code in ` ```mermaid ` blocks.
 
 ## 🛠️ Operational Workflow
 
@@ -56,6 +64,7 @@ Our documentation pipeline is driven by GitHub Issues and automated Cloudflare d
     *   `features/`: Core functionality (Calendars, Photos).
     *   `integrations/`: External services (Google, Cozi).
     *   `troubleshooting/`: Fix-it guides.
+*   **`plans/`**: **Internal Strategy.** Contains content plans and audit results. Not published.
 *   **`sidebars.ts`**: **The Navigation Map.**
     *   *Critical:* You must update this file when adding new documents to ensure they appear in the sidebar.
 *   **`docusaurus.config.ts`**: Site configuration (Nav, Footer, SEO).
